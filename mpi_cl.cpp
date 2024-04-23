@@ -148,7 +148,7 @@ int main(int argc, char** argv) {
     end_time = MPI_Wtime(); // End timing
     
     if (rank == 0) { // If this is the master process
-        printf("Total execution time: %.6f seconds\n", end_time - start_time); // Display total execution time
+        printf("Execution time: %.6f seconds\n", end_time - start_time); // Display total execution time
         
         // Check if the array is sorted
         int sorted = 1;
